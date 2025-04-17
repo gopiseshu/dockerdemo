@@ -1,4 +1,5 @@
 FROM node:12-alpine
+#gopihere
 RUN apk add --no0cache python2 g++ make
 WORKDIR /app
 COPY . .
